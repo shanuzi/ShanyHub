@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DummyHub</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- <a class="skip-link" href="#app">Skip to content</a> -->
+
+  <header class="site-header">
+    <a class="brand" href="#/">DummyHub</a>
+    <nav class="main-nav" aria-label="Main">
+      <a class="nav-link" data-route="dashboard" href="#/">Dashboard</a>
+      <a class="nav-link" data-route="shop" href="#/shop">Shop</a>
+      <a class="nav-link" data-route="recipes" href="#/recipes">Recipes</a>
+      <a class="nav-link" data-route="community" href="#/community">Community</a>
+      <a class="nav-link" data-route="people" href="#/people">People</a>
+      <a class="nav-link" data-route="tasks" href="#/tasks">Tasks</a>
+      <a class="nav-link" data-route="cart" href="#/cart">Cart <span id="cart-badge" class="badge is-empty">0</span></a>
+    </nav>
+    <div id="user-area" class="user-area"></div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <p>DummyHub &middot; data from <a href="https://dummyjson.com" target="_blank" rel="noopener">DummyJSON</a></p>
+  </footer>
+
+  <script src="js/state.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/views/not-found.js"></script>
+  <script src="js/views/login.js"></script>
+  <script src="js/views/dashboard.js"></script>
+  <script src="js/views/shop.js"></script>
+  <script src="js/views/cart.js"></script>
+  <script src="js/views/product-detail.js"></script>
+  <script src="js/views/recipes.js"></script>
+  <script src="js/views/recipe-detail.js"></script>
+  <script src="js/views/community.js"></script>
+  <script src="js/views/post-detail.js"></script>
+  <script src="js/views/people.js"></script>
+  <script src="js/views/user-profile.js"></script>
+  <script src="js/views/tasks.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
